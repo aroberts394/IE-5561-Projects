@@ -17,11 +17,14 @@ require(corrplot)     # for correlation matrices
 
                       ### EXPLORATORY DATA ANALYSIS ###
 # load in dataset
-higher_ed <- read_csv("/Volumes/GoogleDrive/My Drive/IE 5561 Projects/Project 1/Data/Higher_Ed.csv", col_types = cols(BIRYR = col_factor(),                                                                     GENDER = col_factor(),
-                                  MINRTY = col_factor(),                                                                    RACETH = col_factor(), 
-                                  DGRDG = col_factor(),
-                                  OCEDRLP = col_factor(),
-                                  NOCPRMG = col_factor()))
+higher_ed <- read_csv("/Volumes/GoogleDrive/My Drive/IE 5561 Projects/Project 1/Data/Higher_Ed.csv", 
+                      col_types = cols(BIRYR = col_factor(),
+                                       GENDER = col_factor(),
+                                       MINRTY = col_factor(),
+                                       RACETH = col_factor(), 
+                                       DGRDG = col_factor(),
+                                       OCEDRLP = col_factor(),
+                                       NOCPRMG = col_factor()))
 # rename the dataset
 ed <- higher_ed
 # attach the Glaucoma dataset to the environment
@@ -100,9 +103,9 @@ ggplot(ed, aes(x = RACETH, y = SALARY)) +
                       ### DATA PREPROCESSING ###
 
 
-                    ### MODEL BUILDING AND EVALUATION ###
+                      ### MODEL BUILDING AND EVALUATION ###
 
 
-                    ### MODEL TUNING AND SELECTION ###
+                      ### MODEL TUNING AND SELECTION ###
 
 
