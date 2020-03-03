@@ -1,4 +1,4 @@
-Files for IE 5561 Project 1:
+### Files for IE 5561 Project 1:
 
 1. Higher_ed.csv - raw data export from IPUMS
 2. Models_r_codes.R - R script with machine learning models
